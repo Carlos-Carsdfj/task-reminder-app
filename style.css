@@ -1,0 +1,77 @@
+   .content{
+
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            
+
+        }
+        form{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: stretch;
+            
+            z-index: 50;
+            
+        }
+        img {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+        .content-form{
+            margin-top: 50px;
+            background: rgba(12, 11, 11,.5);
+            border-top-left-radius:10px ;
+            border-top-right-radius:10px ;
+           
+            padding: 20px;
+           
+
+            
+        }
+        .taskGet{
+
+            
+        }
+        .td{
+
+            background: rgba(175, 174, 174, 0.822);
+            margin: 10px 0 ;
+           
+            padding: 0 5px;
+           
+
+            
+        }
+        
+        .btn-delete{
+           background: rgba(199, 28, 16, 0.9);
+            
+
+        }
+        .btn-send{
+            background: rgba(16, 199, 114, 0.9);
+        }
+        .btn{
+            
+            width: 100px;
+            border-radius: 50px;
+            padding:5px 10px;
+            cursor: pointer;
+            border: none;
+            outline:none;
+        }
+        .btn:active{
+            background: rgba(223, 204, 204, 0.719);
+        }
+
+        .btn-edit{
+            background: rgba(158, 49, 172, 0.9);
+        }
